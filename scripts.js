@@ -29,7 +29,7 @@ const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeig
 
 function changeMe() 
 {
-	document.getElementById("changeMe").style.backgroundSize= j + "% 100%";
+	document.getElementById("changeMe").style.backgroundSize= j + "% " + j + "%";
 	console.log(j + 'vw');
 	j = j + 0.1;
 	setTimeout(function () {
